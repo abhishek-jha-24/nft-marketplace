@@ -1,0 +1,42 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "nft original backend",
+  "main": "app.js",
+  "dependencies": {
+    "web3": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Priyam112/nft-marketplace.git"
+  },
+  "keywords": [
+    "nft",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Priyam112/nft-marketplace/issues"
+  },
+  "homepage": "https://gitlab.com/Priyam112/nft-marketplace#readme",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.0",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.14",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
