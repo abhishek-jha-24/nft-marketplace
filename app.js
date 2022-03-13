@@ -1,7 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
-var indexRouter = require("./routes/index");
 var apiRouter = require("./routes/api");
 var apiResponse = require("./src/user/helpers/apiResponse");
 require("dotenv").config();
@@ -37,7 +36,7 @@ app.use(bodyParser.json())
 app.use(cors());
 
 //Route Prefixes
-app.use("/", indexRouter);
+
 app.use("/api/", apiRouter);
 
 // throw 404 if URL not found
